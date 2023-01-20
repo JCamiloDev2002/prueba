@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/bbd70236d9.js" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+</head>
+<body class="bg-gray-50 p-0 text-center ">
+    <main class="relative lg:max-w-7xl lg:mx-auto">
+    <div class="h-64 sm:h-72 md:h-96 lg:w-1/2 lg:absolute lg:right-0 lg:h-full">
+        <img src="/img/pexels-pixabay-356040.jpg" alt="Star Wars" class="w-full h-full object-cover">
+    </div>
+    <div class="text-center pt-8 w-full px-4 lg:w-1/2 lg:py-48 lg:text-left lg:max-w-lg">
+        <h1 class="text-4xl text-gray-900 font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+            Agenda
+            <span class="block text-blue-400">tu cita</span>
+            
+        </h1>
+   
+
+    <p class="text-lg text-gray-500 mt-3 max-w-md mx-auto sm:text-xl md:text-xl md:mt-5 md:max-w-3xl">Para agendar una cita médica, por favor llene el formulario haciendo clic en el siguiente boton. ¡Gracias!</p>
+
+    <div class="mt-10">
+        <a href="#" class="bg-blue-400 px-5 py-3 rounded-lg shadow-lg font-semibold text-sm text-white inline-block w-full sm:w-auto md:px-10 md:py-4 md:text-lg hover:text-white hover:bg-blue-700 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-blue-700 focus:opacity-50 active:bg-blue-700">Agendar cita</a>
+    </div>
+</div >
+    </main>
+    <div class="px-5  mx-auto md:px-0 lg:mt-24 prose mb-4">
+        <hr class="w-28 mx-auto">
+        <h2 on>Iniciar sesion</h2>
+        <form action="#" method="POST" class="grid grid-cols-1 gap-y-5" id="form">
+            <label for="email" class="sr-only" id="">Email</label>
+            <input id="email" type="email" name="email" placeholder="Email" class="px-5 py-3 text-black border-gray-300 shadow-sm rounded-md  focus:ring-2 focus:ring-blue-700 focus:opacity-50 focus:border-transparent">
+            <label for="password" class="sr-only">Password</label>
+            <input id="password" type="password" name="password" placeholder="Password" class="px-5 py-3 text-black border-gray-300 shadow-sm rounded-md  focus:ring-2 focus:ring-blue-700 focus:opacity-50 focus:border-transparent">
+            <div>
+                <div name="0" class="g-recaptcha mb-3" data-sitekey="6LfjlhMkAAAAAEoUuc3jE7FnE6G_hCdzWMLcTRwU"></div>
+
+                <button type="submit" class="bg-blue-400 px-5 py-3 rounded-lg shadow-lg font-semibold text-sm text-white inline-block w-full sm:w-auto md:px-10 md:py-4 md:text-lg hover:text-white hover:bg-blue-700 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-blue-700 focus:opacity-50 active:bg-blue-700">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
