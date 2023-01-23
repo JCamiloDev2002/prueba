@@ -36,13 +36,11 @@ function validar(e){
     e.preventDefault();
     //extraer la informacion del objeto
     const {email, password} = citaObj;
-    if (captcha.getAttribute("name") === "0") {
-        Swal.fire("Error", "Por favor verifica el captcha", "error");
-      }else{
+    
         if(email === `admin@admin.com` && password === `admin`){
             const showAlert = () =>{
                 Swal.fire("Éxito", "Inicio de sesión correcto", "success");
-                window.location.href = "/api.html";
+                window.location.href = "/2.API/api.html";
             }
             showAlert();
         }else{
@@ -51,10 +49,11 @@ function validar(e){
             }
             showAlert();
         }
-      }
+      
+}
 
-        
-
-      }
-
-
+/*ERROR
+if (captcha.getAttribute("name") === "0") {
+        Swal.fire("Error", "Por favor verifica el captcha", "error");
+      }else{
+*/
