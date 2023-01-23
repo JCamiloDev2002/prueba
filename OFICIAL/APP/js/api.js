@@ -25,6 +25,6 @@ const marvel = {
   marvel.render();
 
 /*
-- VENTANA MODA
+- VENTANA MODAL
 
 */
